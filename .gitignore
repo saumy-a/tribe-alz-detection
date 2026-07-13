@@ -1,0 +1,52 @@
+# === OASIS-3 RAW DATA — NEVER COMMIT ===
+freesurfer_output/
+processed_timeseries/
+downloaded_*/
+*.nii
+*.nii.gz
+
+# === SUBJECT-LEVEL DATA — NEVER COMMIT ===
+*.csv
+!download_*/**/*.csv
+!results/*.csv
+*.npy
+subject_index.csv
+y_labels.npy
+X_*.npy
+
+# === SESSION / COOKIES ===
+session_matchup/.cookies-*
+
+# === CACHE ===
+scripts/nilearn_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === OLD / DEBUG SCRIPTS ===
+scripts/02_feature_extraction.py
+scripts/02_feature_extraction_v2.py
+scripts/03_classify.py
+scripts/03_classify_kimi.py
+scripts/03_classify_v2.py
+scripts/03_classify_v3.py
+scripts/03_classify_v4.py
+scripts/debug.py
+scripts/Tests/Test1.py
+
+# === PYTHON ENV ===
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+*.egg
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
