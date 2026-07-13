@@ -7,8 +7,11 @@ downloaded_*/
 
 # === SUBJECT-LEVEL DATA — NEVER COMMIT ===
 *.csv
-!download_*/**/*.csv
+!download_*/**/*example*.csv
 !results/*.csv
+# Explicitly block sensitive FreeSurfer manifests
+download_freesurfer/oasis3_freesurfer_m.csv
+download_freesurfer/my_56_subjects.csv
 *.npy
 subject_index.csv
 y_labels.npy
