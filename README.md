@@ -320,4 +320,11 @@ NIH P30AG066444, P50AG00561, P30NS09857781, P01AG026276, P01AG003991, R01AG04343
 
 ---
 
+## Contributors
+
+The contributors shown on GitHub include authors of [NrgXnat/oasis-scripts](https://github.com/NrgXnat/oasis-scripts),
+which this repository uses for OASIS-3 data download. The research pipeline itself was developed independently.
+
+---
+
 > *"Negative/null results with good methodology are accepted at Frontiers."* — Research advisor, July 2026
